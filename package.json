@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@nuxt/http": "latest",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "oracledb": "^5.1.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

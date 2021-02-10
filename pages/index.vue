@@ -14,6 +14,12 @@
           >
             Users List
           </a>
+          <a
+            href="/employees"
+            class="button--green"
+          >
+            Employees List
+          </a>
         </div>
       </div>
       <div class="links">
