@@ -6,9 +6,9 @@ const tools = require('../tools');
 
 const oracledb = require('oracledb')
 const config = {
-  user: 'apps',
-  password: 'apps',
-  connectString: 'erpdev.sercomm.com:1523/dev'
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  connectString: process.env.DB_CONNECTIONSTRING
 }
 
 const users = [

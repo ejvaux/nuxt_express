@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxt/http": "latest",
+    "dotenv": "^8.2.0",
     "nuxt": "latest",
     "oracledb": "^5.1.0"
   },
